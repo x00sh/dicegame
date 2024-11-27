@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/disclaimer_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="Press the throw button to roll your 5 dice. Then, click on the dice you wish to keep, and press throw again to reroll the dice you didn't keep. You can only reroll twice, so chose your dice wisely. Simultaneously, the computer will also be rolling it's own dice. Once you've chosen all of your dice, they will be added to your score total, likewise for the computer. The aim is to get to 101 first, or if you both pass 101 simultaneously, to achieve the higher result. If there is a tie, you may only roll your 5 dice once each turn until a victor is determined. After the game is over, press back on your device to return to the main menu and press new game to play again."
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+</LinearLayout>
